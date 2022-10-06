@@ -29,12 +29,28 @@ a:active{
     color: green;
 }
 a:visited{
-    color: #000;
+    color: red;
 }
 
 .container{
     width: 80%;
     margin: auto;
+}
+
+.button{
+    background-color:#000 ;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+}
+
+.button:hover{
+background-color: #555555;
+color: firebrick;
+}
+
+.clr{
+    clear: both;
 }
 .box-1 {
     background-color: #333;
@@ -81,4 +97,55 @@ border-radius: 15px;
     padding-bottom: 6px;
     border-bottom: dotted 1px #000;
     list-style-image:url('../images/check.png') ;
+}
+
+.My-Form{
+    padding: 20px;
+}
+
+.My-Form .Form-group{
+    padding-bottom: 5px;
+}
+.My-Form label{
+    display: block;
+}
+.My-Form input[type="text"], .My-Form textarea{
+    padding: 8px;
+    width: 100%;
+}
+.My-Form input[type="submit"]{
+    background-color:#333 ;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 15%;
+}
+.block{
+    float: left;
+    width: 33.3%;
+    border: 1px solid #ccc;
+    padding: 10px; 
+    box-sizing: border-box;
+}
+#main-block{
+    float: left;
+    width: 70%;
+}
+#sidebar{
+    float: right;
+    width: 30%;
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+    box-sizing: border-box;
+}
+.my-list li:first-child {
+    background: red;    
+}
+
+.my-list li:last-child{
+    background: blue;
+}
+.my-list li:nth-child(3){
+    background: yellow;
 }
