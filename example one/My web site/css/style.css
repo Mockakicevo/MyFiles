@@ -61,7 +61,7 @@ overflow: hidden;
     box-sizing: border-box;
 }
 #sidebar{
-    float: left;
+    float: right;
     width: 30%;
     background-color: #333;
     color: #FFF;
